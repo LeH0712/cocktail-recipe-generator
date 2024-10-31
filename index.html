@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Cocktail Recipe Generator</title>
   </head>
@@ -20,7 +21,7 @@
 
       <main>
         <div class="form-container">
-          <form>
+          <form id="recipe-generator-form">
             <input
               type="text"
               placeholder="Enter your key ingredients for your cocktail..."
@@ -31,18 +32,7 @@
             />
             <input type="submit" class="submit-button" />
           </form>
-          <div class="recipe">
-            Woo woo
-            <br />
-            Ingredients
-            <ul>
-              <li>50ml vodka</li>
-              <li>25ml peach schnapps</li>
-              <li>100ml cranberry juice</li>
-              <li>few drops fresh lime juice</li>
-              <li>ice wedge of lime</li>
-            </ul>
-          </div>
+          <div class="recipe" id="recipe"></div>
         </div>
       </main>
 
