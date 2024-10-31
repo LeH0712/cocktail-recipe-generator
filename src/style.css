@@ -37,6 +37,12 @@ h1 {
 form {
   display: flex;
 }
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
 .form-container {
   padding: 40px 30px;
   background: rgb(237, 241, 251);
@@ -74,16 +80,9 @@ form {
 .recipe {
   text-align: center;
   font-size: 18px;
-  padding-top: 20px;
+  padding-top: 10px;
   line-height: 28px;
-  margin-top: 20px;
   color: #2a2431;
-}
-
-ul {
-  padding-left: 0;
-  list-style: none;
-  text-align: center;
 }
 
 footer {
