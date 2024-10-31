@@ -1,0 +1,92 @@
+body {
+  min-height: 100vh;
+  background: rgb(181, 190, 217);
+  background: linear-gradient(
+    0deg,
+    rgba(181, 190, 217, 1) 0%,
+    rgba(247, 233, 249, 1) 100%
+  );
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  color: #855bb6;
+}
+a:hover {
+  color: #581b99;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+
+header {
+  margin-bottom: 35px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Lexend", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #68587a;
+}
+
+form {
+  display: flex;
+}
+.form-container {
+  padding: 40px 30px;
+  background: rgb(237, 241, 251);
+  background: radial-gradient(
+    circle,
+    rgba(237, 241, 251, 0.5340511204481793) 0%,
+    rgba(251, 243, 252, 0.53125) 100%
+  );
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+.instructions {
+  padding: 10px;
+  width: 90%;
+  border: 3px solid #faf0f8;
+  font-size: 15px;
+  border-radius: 50px;
+  line-height: 20px;
+  color: #322566;
+}
+
+.submit-button {
+  margin-left: 10px;
+  background: #68587a;
+  color: white;
+  border: none;
+  padding: 0 30px;
+  font-size: 15px;
+  border-radius: 50px;
+  width: 150px;
+}
+
+.recipe {
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  line-height: 28px;
+  margin-top: 20px;
+  color: #2a2431;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+}

@@ -3,56 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Cocktail Recipe Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Create a Cocktail Recipe</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>Create a Cocktail Recipe</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter your key ingredients for your cocktail, such as Rum, pineapple etc."
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        Woo woo
-        <br />
-        Ingredients
-        <ul>
-          <li>50ml vodka</li>
-          <li>25ml peach schnapps</li>
-          <li>100ml cranberry juice</li>
-          <li>few drops fresh lime juice</li>
-          <li>ice wedge of lime</li>
-        </ul>
-      </div>
-    </main>
+      <main>
+        <div class="form-container">
+          <form>
+            <input
+              type="text"
+              placeholder="Enter your key ingredients for your cocktail..."
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="recipe">
+            Woo woo
+            <br />
+            Ingredients
+            <ul>
+              <li>50ml vodka</li>
+              <li>25ml peach schnapps</li>
+              <li>100ml cranberry juice</li>
+              <li>few drops fresh lime juice</li>
+              <li>ice wedge of lime</li>
+            </ul>
+          </div>
+        </div>
+      </main>
 
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/LeH0712" target="_blank">Leanne Harrison</a>
-      and is
-      <a
-        href="https://github.com/LeH0712/cocktail-recipe-generator"
-        target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and is
-      <a
-        href="https://ai-cocktail-recipe-generator.netlify.app/"
-        target="_blank"
-        >hosted on Netlify</a
-      >
-    </footer>
-
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/LeH0712" target="_blank">Leanne Harrison</a>
+        and is
+        <a
+          href="https://github.com/LeH0712/cocktail-recipe-generator"
+          target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and is
+        <a
+          href="https://ai-cocktail-recipe-generator.netlify.app/"
+          target="_blank"
+          >hosted on Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
