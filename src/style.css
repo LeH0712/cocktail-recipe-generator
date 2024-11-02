@@ -44,7 +44,7 @@ ul {
 }
 
 .form-container {
-  padding: 40px 30px;
+  padding: 35px 30px;
   background: rgb(237, 241, 251);
   background: radial-gradient(
     circle,
@@ -54,6 +54,14 @@ ul {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 20px;
   margin-bottom: 40px;
+}
+
+.hint {
+  line-height: 1.5;
+  font-size: 12px;
+  margin-top: 5px;
+  opacity: 0.6;
+  padding-left: 10px;
 }
 
 .instructions {
@@ -88,4 +96,19 @@ ul {
 footer {
   text-align: center;
   font-size: 13px;
+}
+
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
